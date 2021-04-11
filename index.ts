@@ -2,9 +2,6 @@ export interface anyObject {
   [key: string]: any;
 
   [key: number]: any;
-
-  // @ts-ignore
-  [key: symbol]: any;
 }
 
 export type PathElement = string | number | symbol;
