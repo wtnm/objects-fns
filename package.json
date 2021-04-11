@@ -1,0 +1,24 @@
+{
+  "name": "objects-fns",
+  "version": "1.0.0",
+  "description": "a bunch of functions to manipulate objects",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtnm/objects-fns.git"
+  },
+  "keywords": [
+    "objects",
+    "arrays",
+    "functions"
+  ],
+  "author": "Antonov Andrew <wtnm@rambler.ru> (https://github.com/wtnm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtnm/objects-fns/issues"
+  },
+  "homepage": "https://github.com/wtnm/objects-fns#readme"
+}
