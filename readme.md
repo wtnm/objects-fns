@@ -119,20 +119,11 @@ console.log(arr) // [2, 0, 1, 3, 4];
 
 ```
 
-#### toArray(value: any)
+#### intoArray(value: any)
 
 if `value` is not array, then returns it as array. Example:
 
 ```
 console.log(toArray(5)) // [5];
 console.log(toArray([])) // [];
-```
- 
-#### deArray(value: any)
-
-if `value` is array and has length 1 then returns it first element
-
-```
-console.log(deArray([5])) // 5;
-console.log(deArray([1, 2])) // [1, 2];
 ```

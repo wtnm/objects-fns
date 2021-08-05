@@ -170,8 +170,6 @@ function moveArrayElems(arr: any[], from: number, to: number): Array<any> {
 }
 
 
-const toArray = (value: any) => isArray(value) ? value : [value];
-const deArray = (value: any, keepArray?: boolean) => !keepArray && isArray(value) && value.length == 1 ? value[0] : value;
+const intoArray = (value: any):any[] => isArray(value) ? value : [value];
 
-
-export {push2array, moveArrayElems, toArray, deArray} // array-fns
+export {push2array, moveArrayElems, intoArray} // array-fns
